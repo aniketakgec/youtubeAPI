@@ -40,7 +40,7 @@ button:hover {
 .containerTag> img {
  
   height: 75px;
-  width: 110px;
+  width: 95px;
 }
 .input-text:focus {
   box-shadow: 0px 0px 0px;
@@ -170,7 +170,7 @@ td {
      
   }
   td>img{
-    width: 100vw;
+    width: 100%;
   }
   tr{
     display: flex;

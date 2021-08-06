@@ -39,7 +39,7 @@ async function displayVideos(arr,item,videoDataStatistics) {
   const channelInfo=await fetch(`https://www.googleapis.com/youtube/v3/channels?part=snippet&id=${item.snippet.channelId}&key=${API_KEY}`)
 
   const channelInfoJson=await channelInfo.json();
-  console.log(channelInfoJson.items[0].snippet.thumbnails.default.url)
+  //console.log(channelInfoJson.items[0].snippet.thumbnails.default.url)
   
   videoData={
     videoThumbnail:item.snippet.thumbnails.high.url,
